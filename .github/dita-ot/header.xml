@@ -1,0 +1,112 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-xxl">
+    <!-- This shows the menu on mobile -->
+    <div class="bd-navbar-toggle">
+      <button
+        class="navbar-toggler p-2"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#bdSidebar"
+        aria-controls="bdSidebar"
+        aria-label="Toggle navigation"
+      >
+        <i class="bi bi-list"/>
+      </button>
+    </div>
+    <a class="navbar-brand" href="index.html">
+   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
+  <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
+</svg>
+<!--      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+        <path d="M6 0a.5.5 0 0 1 .5.5V3h3V.5a.5.5 0 0 1 1 0V3h1a.5.5 0 0 1 .5.5v3A3.5 3.5 0 0 1 8.5 10c-.002.434-.01.845-.04 1.22-.041.514-.126 1.003-.317 1.424a2.083 2.083 0 0 1-.97 1.028C6.725 13.9 6.169 14 5.5 14c-.998 0-1.61.33-1.974.718A1.922 1.922 0 0 0 3 16H2c0-.616.232-1.367.797-1.968C3.374 13.42 4.261 13 5.5 13c.581 0 .962-.088 1.218-.219.241-.123.4-.3.514-.55.121-.266.193-.621.23-1.09.027-.34.035-.718.037-1.141A3.5 3.5 0 0 1 4 6.5v-3a.5.5 0 0 1 .5-.5h1V.5A.5.5 0 0 1 6 0zM5 4v2.5A2.5 2.5 0 0 0 7.5 9h1A2.5 2.5 0 0 0 11 6.5V4H5z"></path>
+      </svg> 
+      -->
+        <span class="align-middle">Remote Lighting Enterprises</span>
+    </a>
+    <button class="navbar-toggler py-2 px-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="bi bi-three-dots"/>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item d-flex align-items-center">
+          <form class="position-relative me-auto search-box rounded">
+            <div class="input-group">
+              <span class="input-group-text bg-primary-subtle">
+                <i class="bi bi-search"/>
+              </span>
+              <input
+                  type="search"
+                  class="form-control form-floating"
+                  placeholder="Search…"
+                  aria-label="Search for…"
+                  dir="auto"
+                />
+            </div>
+          </form>
+        </li>
+        <!--
+          This is a dark/light color theme toggler.
+          It requires JavaScript to function.
+        -->
+        <li class="nav-item dropdown">
+          <a
+            href="#"
+            class="nav-link px-0 px-lg-2 dropdown-toggle d-flex align-items-center"
+            id="bd-theme"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            data-bs-display="static"
+          >
+            <span class="d-light">
+              <i class="bi bi-brightness-high-fill"/>
+            </span>
+            <span class="d-dark">
+              <i class="bi bi-moon-stars-fill"/>
+            </span>
+            <span class="d-auto">
+              <i class="bi bi-circle-half"/>
+            </span>
+            <span class="d-lg-none ms-2">Toggle theme</span>
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="bd-theme"
+            style="--bs-dropdown-min-width: 6rem;"
+            data-bs-popper="static"
+          >
+            <li>
+              <button
+                type="button"
+                class="dropdown-item d-flex align-items-center"
+                data-bs-theme-value="light"
+              >
+                <i class="bi bi-brightness-high-fill"/>
+                <span class="ms-2">Light</span>
+              </button>
+            </li>
+            <li>
+              <button
+                type="button"
+                class="dropdown-item d-flex align-items-center"
+                data-bs-theme-value="dark"
+              >
+                <i class="bi bi-moon-stars-fill"/>
+                <span class="ms-2">Dark</span>
+              </button>
+            </li>
+            <li>
+              <button
+                type="button"
+                class="dropdown-item d-flex align-items-center"
+                data-bs-theme-value="auto"
+              >
+                <i class="bi bi-circle-half"/>
+                <span class="ms-2">Auto</span>
+              </button>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

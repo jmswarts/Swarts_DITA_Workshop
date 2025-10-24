@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.dita-ot.org/rng/project.rnc" type="application/relax-ng-compact-syntax"?>
+<project xmlns="https://www.dita-ot.org/project">
+  <context id="html" name="HTML">
+    <input href="../../dita/document.ditamap"/>
+    <profile>
+      <ditaval href="html.ditaval"/>
+    </profile>
+  </context>
+  <deliverable name="HTML5" id="html">
+    <context idref="html"/>
+    <output href="html"/>
+    <publication transtype="html5-bootstrap">
+      <param name="args.copycss" value="yes"/>
+      <param name="args.css" value="theme.css"/>
+      <param name="args.csspath" value="css"/>
+      <param name="args.cssroot" path="."/>
+      <param name="args.favicon" value="favicon.svg"/>
+      <param name="args.faviconpath" value="favicon"/>
+      <param name="args.faviconroot" path="."/>
+      <param name="args.hdr" href="header.xml"/>
+      <param name="args.ftr" href="footer.xml"/>
+      <param name="html5.toc.generate" value="no"/>
+      <param name="args.rellinks" value="none"/>
+      <param name="nav-toc" value="collapsible"/>
+      <param name="scrollspy-toc" value="list"/>
+      <param name="processing-mode" value="strict"/>
+      <param name="icons.include" value="yes"/>
+      <param name="args.breadcrumbs" value="yes"/>
+      <param name="menubar-toc.include" value="no"/>
+      <param name="bootstrap.css.topic.title" value="text-primary"/>
+      <param name="bootstrap.css.section.title" value="h4 text-secondary"/>
+      <param name="open-graph.url" value="https://jason-fox.github.io/dita-ot-plugins"/>
+      <param name="prism.use.theme" value="solarized"/>
+    </publication>
+  </deliverable>
+</project>

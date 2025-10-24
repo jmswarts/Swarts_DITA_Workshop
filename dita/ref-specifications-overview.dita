@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="ref-specifications-overview" xml:lang="en-us">
+  <title>Product Specifications</title>
+  <shortdesc>The network lighting components have specific electronic and technical
+    specifications.</shortdesc>
+  <prolog>
+    <author>Kevin Lewis</author>
+    <copyright>
+      <copyryear year="2025"/>
+      <copyrholder>Remote Lighting Enterprises</copyrholder>
+    </copyright>
+  </prolog>
+  <refbody>
+    <section>The components in your <keyword keyref="product-name"/> network have electronic and technical specifications
+      that are specific to the component type.</section>
+  </refbody>
+  <related-links>
+    <link href="ref-specifications-remote-control.dita#ref-specifications-remote-control"/>
+    <link href="ref-specifications-led-bulb.dita#ref-specifications-led-bulb"/>
+  </related-links>
+</reference>

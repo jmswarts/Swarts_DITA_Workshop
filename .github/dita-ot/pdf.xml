@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.dita-ot.org/rng/project.rnc" type="application/relax-ng-compact-syntax"?>
+<project xmlns="https://www.dita-ot.org/project">
+  <deliverable id="pdf">
+    <context name="User Guide">
+      <input href="${project.dir}/../../dita/document.ditamap"/>
+      <profile>
+        <ditaval href="${project.dir}/pdf.ditaval"/>
+      </profile>
+    </context>
+    <output href="${project.dir}/pdf"/>
+    <publication transtype="pdf2">
+      <!-- keep your existing params -->
+      <param name="args.chapter.layout" value="BASIC"/>
+      <param name="args.gen.task.lbl" value="YES"/>
+      <param name="include.rellinks" value="friend"/>
+      <param name="outputFile.base" value="userguide"/>
+      <param name="processing-mode" value="strict"/>
+
+  
+    </publication>
+  </deliverable>
+</project>

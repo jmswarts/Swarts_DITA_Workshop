@@ -1,0 +1,21 @@
+<!-- Footer -->
+<footer class="text-center" style="background-color: rgba(0, 0, 0, 0.2)">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <!-- Social Media -->
+        <p class="text-center p-3">
+          <!-- Linkedin
+          <a class="btn btn-primary btn-floating m-1 text-white" style="background-color: #0082ca" href="https://www.linkedin.com/in/jason-fox-8a79563/" role="button"><i class="bi bi-linkedin"></i></a>
+           -->
+          <!-- Github 
+          <a class="btn btn-primary btn-floating m-1 text-white" style="background-color: #333333" href="https://github.com/carlosevia/" role="button"><i class="bi bi-github"></i></a>
+        -->
+        </p>
+      </div>
+      <div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Footer -->

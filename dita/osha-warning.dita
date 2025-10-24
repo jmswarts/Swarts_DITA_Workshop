@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="oshawarning">
+  <title>OSHA Warning</title>
+  <body>
+    <note type="danger" id="disclaimer">
+    <p id="osha-disclaimer">Switchboards, panelboards, industrial control panels, and motor control centers that are in other than dwelling occupancies and are likely to require examination, adjustment, servicing, or maintenance while energized shall be field marked to warn qualified persons of potential electric arc flash hazards</p>
+    </note>
+  </body>
+</topic>
