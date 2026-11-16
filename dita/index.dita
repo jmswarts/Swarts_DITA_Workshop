@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="ConcordancePlotConcept">
+ <title>Concordance Plot Tool</title>
+ <shortdesc>The Concordance Plot tool provides a visualization of Concordance search results within AntConc.</shortdesc>
+ <prolog>
+  <author>Chris Sanchez</author>
+  <critdates>
+   <created date="11/29/2016"/>
+   <revised modified="11/29/2016"/>
+  </critdates>
+  
+  <metadata>
+   <keywords>
+    <indexterm>concordance plot</indexterm>
+    <indexterm>concordance</indexterm>
+    <indexterm>KWIC line</indexterm>
+   </keywords>
+  </metadata>
+ </prolog>
+ 
+ 
+ <conbody>
+  <p >The Concordance Plot tool graphically represents the results of the standard Concordance tool.
+   Rather than appearing as words, the search terms display as verticle representations of <xref
+    href="reference_KWIC_lines.dita">KWIC lines</xref> within a rectangle "barcode" graphic that
+   represents complete text of a corpus file.</p>
+  <p> Depending on the frequency of the search term, the viewability of hits within the graphic may
+   decrease. In that case, AntConc allows you to zoom in to view individual lines. If you click a
+   line, you can view the corresponding instance of the term in the corpus.</p>
+ </conbody>
+</concept>
