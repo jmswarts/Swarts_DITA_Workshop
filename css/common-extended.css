@@ -5,17 +5,21 @@
  */
 
 :root {
-  --dita-prussian-blue: #1d365d;
-  --dita-maroon: #800000;
+  --dita-prussian-blue: var(--bs-primary-text-emphasis);
+  --dita-maroon: var(--bs-danger-text-emphasis);
   --dita-violet: var(--bs-purple);
+  --bs-code-color: rgb(from var(--bs-danger) r g calc(b + 63));
 }
+
+/*!
+ *  This file is part of the DITA Bootstrap plug-in for DITA Open Toolkit.
+ *  See the accompanying LICENSE file for applicable licenses.
+ */
 
 .list-group-item.active,
 .nav-link.active,
 [data-bs-theme='dark'] {
-  --dita-prussian-blue: #6a91cf;
   --dita-violet: #cc99cd;
-  --dita-maroon: #ff7676;
 }
 
 .list-group-item {
@@ -49,14 +53,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --dita-prussian-blue: #6a91cf;
     --dita-violet: #cc99cd;
-    --dita-maroon: #ff7676;
   }
 
   [data-bs-theme='light'] {
-    --dita-prussian-blue: #1d365d;
-    --dita-maroon: #800000;
     --dita-violet: var(--bs-purple);
   }
 }
@@ -93,6 +93,21 @@
   color: var(--dita-prussian-blue);
 }
 
+.nav-pills .active .cmdname,
+.nav-pills .active .codeph,
+.nav-pills .active .filepath,
+.nav-pills .active .option,
+.nav-pills .active .parmname,
+.nav-pills .active .numcharref,
+.nav-pills .active .parameterentity,
+.nav-pills .active .textentity,
+.nav-pills .active .xmlatt,
+.nav-pills .active .xmlelement,
+.nav-pills .active .xmlnsname,
+.nav-pills .active .xmlpi {
+  color: var(--bs-nav-pills-link-active-color);
+}
+
 .boolean {
   color: var(--bs-green);
 }
@@ -121,6 +136,17 @@
 .search-box:hover,
 .search-box:focus-visible {
   outline: -webkit-focus-ring-color auto 1px;
+}
+
+.note {
+  border-left: 6px solid;
+  border-left-color: var(--bs-alert-color, transparent);
+}
+
+[dir='rtl'] .note {
+  border-right: 6px solid;
+  border-right-color: var(--bs-alert-color, transparent);
+  border-left: 0;
 }
 
 /*!

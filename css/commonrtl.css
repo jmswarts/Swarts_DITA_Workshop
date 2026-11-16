@@ -330,7 +330,6 @@ div.imagejustify {
 }
 
 .sectiontitle {
-  color: #000;
   font-size: 1.17em;
   font-weight: bold;
   margin-bottom: 0;
@@ -492,6 +491,8 @@ dt.prereq {
   font-weight: bold;
 }
 .note .note__body {
+  /* Note body is a <div> to keep HTML5 valid for block element children;
+     "display: inline" allows one-line rendering if children are inline (#3955) */
   display: inline;
 }
 
