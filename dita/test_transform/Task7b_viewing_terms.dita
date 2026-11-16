@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="ViewTermsTask" audience="novice">
+    <title>Viewing Search Terms in the Corpus</title>
+    <shortdesc>You can use the Concordance Plot tool view individual search terms within a map of
+        search terms.</shortdesc>
+    <prolog>
+        <author>Chris Sanchez</author>
+        <critdates>
+            <created date="11/29/2016"/>
+            <revised modified="11/29/2016"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>search results</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>To view search terms within a corpus:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Use the Concordance Plot tool to <xref href="Task7a_mapping_terms.dita">map search terms within a corpus</xref>.</cmd>
+            </step>
+            <step>
+                <cmd>Use the <uicontrol>Plot Zoom</uicontrol> arrows to zoom in or out of the map if
+                    desired.</cmd>
+                <stepxmp><image href="Task7_PlotZoom.png" width="300"></image></stepxmp>
+            </step>
+            <step>
+                <cmd>Click on one vertical <xref href="reference_KWIC_lines.dita">KWIC line</xref> within the map to display a highlighted instance of
+                    the term within the File View tool.</cmd>
+            </step>
+            <step>
+                <cmd>Command + Click on one vertical <xref href="reference_KWIC_lines.dita">KWIC line</xref> within the map to display a highlighted instance of
+                    the term within the File View tool.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Clone Results</uicontrol> button in the <wintitle>File View</wintitle> window
+                    to save the results in a new window.</cmd>
+                <stepxmp><image href="Task7_FV_Clone.png" width="300"></image></stepxmp>
+            </step>
+        </steps>
+    </taskbody>
+</task>

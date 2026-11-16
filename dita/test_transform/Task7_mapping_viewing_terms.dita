@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="MapViewTermsTask" audience="novice">
+    <title>Mapping and Viewing Search Terms in the Corpus</title>
+    <shortdesc>You can use the Concordance Plot tool to map and view search terms within a
+        corpus.</shortdesc>
+    <prolog>
+        <author>Chris Sanchez</author>
+        <critdates>
+            <created date="11/29/2016"/>
+            <revised modified="11/29/2016"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>map</indexterm><indexterm>search results</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>To map and view search terms within the corpus:</p>
+        </context>
+        <steps>
+            <step id="load_corpus">
+                <cmd><xref href="t_loading_corpus_files.dita">Load a corpus into AntConc.</xref></cmd>
+            </step>
+            <step id="corpus_files">
+                <cmd>Click the desired file's name within the <wintitle>Corpus Files</wintitle> panel to activate the file.</cmd>
+            </step>
+            <step id="concordance_plot_tab">
+                <cmd>Click the <uicontrol>Concordance Plot</uicontrol> tab.</cmd>
+            </step>
+            <step>
+                <cmd><xref href="Task7a_mapping_terms.dita">Create a map of the search terms.</xref></cmd>
+            </step>
+            <step>
+                <cmd><xref href="Task7b_viewing_terms.dita">View an individual search term.</xref></cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>
