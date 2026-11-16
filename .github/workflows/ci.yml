@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Git checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v2
       - name: Build Bootstrap ⚙️
-        uses: dita-ot/dita-ot-action@4.3
+        uses: dita-ot/dita-ot-action@4.4
         with:
           install: |
             apt-get update -q
@@ -23,7 +23,7 @@ jobs:
             fox.jason.extend.css
             net.infotexture.dita-bootstrap
             net.infotexture.dita-bootstrap.lunr
-            fox.jason.prismjs
+            fox.jason.prismjs@4.2.0
             fox.jason.favicon
             fox.jason.open-graph
           project: .github/dita-ot/html.xml
@@ -37,7 +37,7 @@ jobs:
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: out/html # The folder the action should deploy.
       - name: Build PDF 🖨️
-        uses: dita-ot/dita-ot-action@4.3
+        uses: dita-ot/dita-ot-action@4.4
         with:
           install: |
             apt-get update -q
@@ -46,7 +46,7 @@ jobs:
             nodejs -v
           plugins: |
             fox.jason.extend.css
-            fox.jason.prismjs
+            fox.jason.prismjs@4.2.0
           build: |
               dita -i dita/document.ditamap -o out/pdf -f pdf --theme=.github/themes/theme.yaml --org.dita.index.skip="yes"
          # If you have a DITAVal, replace the previous line with the following:
