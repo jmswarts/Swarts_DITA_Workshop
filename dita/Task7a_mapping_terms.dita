@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="MapTermsTask" audience="novice">
+    <title>Mapping Search Terms in the Corpus</title>
+    <shortdesc>You can use the Concordance Plot tool to display a visual representation of the a term's hits within a corpus.</shortdesc>
+    <prolog>
+        <author>Chris Sanchez</author>
+        <critdates>
+            <created date="11/29/2016"/>
+            <revised modified="11/29/2016"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>map</indexterm><indexterm>search results</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    
+    <taskbody>
+        <context>
+            <p>To visually map search terms within a corpus:</p>
+        </context>
+        <steps>
+            <step conref="Task7_mapping_viewing_terms.dita#MapViewTermsTask/load_corpus">
+                <cmd></cmd>
+            </step>
+            <step conref="Task7_mapping_viewing_terms.dita#MapViewTermsTask/corpus_files">
+                <cmd></cmd>
+            </step>
+            <step conref="Task7_mapping_viewing_terms.dita#MapViewTermsTask/concordance_plot_tab">
+                <cmd></cmd>
+            </step>
+            <step>
+                <cmd>Type a term into the Search Term textbox and click Start to display a visual map of the search term hits.</cmd>
+                <stepxmp><image href="Task7_SearchTermBox.png" width="300"></image></stepxmp>
+            </step>
+            <step>
+                <cmd>Type a term into the Search Term textbox and click <uicontrol>Start</uicontrol>, while holding the Option key, to display a visual map of the search term hits.</cmd>
+                <stepxmp><image href="Task7_SearchTermBox.png" width="300"></image></stepxmp>
+            </step>
+            <step>
+                <cmd>Take a screenshot to save the results.</cmd>
+                <info>The Concordance Plot tool does not have a <uicontrol>Clone Results</uicontrol> option.</info>
+            </step>
+        </steps>
+    </taskbody>
+</task>
